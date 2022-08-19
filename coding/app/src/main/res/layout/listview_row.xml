@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="485dp"
+        android:background="#03A9F4"
+        android:backgroundTint="#03A9F4">
+
+        /
+
+        <TextView
+            android:id="@+id/ItemNameTV"
+            android:layout_width="184dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/ItemPriceTV"
+            android:layout_width="141dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="125dp"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ItemImg"
+            android:layout_width="216dp"
+            android:layout_height="159dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="200dp"
+
+            tools:srcCompat="@tools:sample/avatars" />
+        "
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
